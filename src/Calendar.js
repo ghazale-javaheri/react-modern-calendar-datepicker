@@ -59,8 +59,7 @@ const Calendar = ({
 
   const createStateToggler = property => () => {
     if (
-      property === 'isYearSelectorOpen' &&
-      property === 'isMonthSelectorOpen' &&
+      (property === 'isYearSelectorOpen' || property === 'isMonthSelectorOpen') &&
       !disableHeaderClick
     ) {
       setMainState({ ...mainState, [property]: !mainState[property] });

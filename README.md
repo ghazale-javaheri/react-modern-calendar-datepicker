@@ -50,7 +50,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
+and at the end ghazaleh javaheri,little contributor and bahar hashemi and this package edit bug [204](https://github.com/Kiarash-Z/react-modern-calendar-datepicker/issues/204)
+and also let you disable header click ,that is disabled by default and you could add disableHeaderClick to enable it
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ## LICENSE

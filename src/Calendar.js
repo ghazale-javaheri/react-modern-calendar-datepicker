@@ -28,6 +28,7 @@ const Calendar = ({
   shouldHighlightWeekends,
   renderFooter,
   customDaysClassName,
+  disableHeaderClick,
 }) => {
   const calendarElement = useRef(null);
   const [mainState, setMainState] = useState({
@@ -42,9 +43,13 @@ const Calendar = ({
       /* istanbul ignore else */
       if (key === 'Tab') calendarElement.current.classList.remove('-noFocusOutline');
     };
-    calendarElement.current.addEventListener('keyup', handleKeyUp, false);
+    if (calendarElement.current !== null) {
+      calendarElement.current.addEventListener('keyup', handleKeyUp, false);
+    }
     return () => {
-      calendarElement.current.removeEventListener('keyup', handleKeyUp, false);
+      if (calendarElement.current !== null) {
+        calendarElement.current.removeEventListener('keyup', handleKeyUp, false);
+      }
     };
   });
 
@@ -124,8 +129,8 @@ const Calendar = ({
         minimumDate={minimumDate}
         activeDate={activeDate}
         onMonthChange={handleMonthChange}
-        onMonthSelect={toggleMonthSelector}
-        onYearSelect={toggleYearSelector}
+        onMonthSelect={!disableHeaderClick && toggleMonthSelector}
+        onYearSelect={!disableHeaderClick && toggleYearSelector}
         monthChangeDirection={mainState.monthChangeDirection}
         isMonthSelectorOpen={mainState.isMonthSelectorOpen}
         isYearSelectorOpen={mainState.isYearSelectorOpen}
@@ -190,6 +195,7 @@ Calendar.defaultProps = {
   value: null,
   renderFooter: () => null,
   customDaysClassName: [],
+  disableHeaderClick: true,
 };
 
 export { Calendar };

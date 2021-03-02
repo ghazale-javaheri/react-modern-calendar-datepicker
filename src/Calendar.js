@@ -58,7 +58,15 @@ const Calendar = ({
   const today = getToday();
 
   const createStateToggler = property => () => {
-    setMainState({ ...mainState, [property]: !mainState[property] });
+    if (
+      property === 'isYearSelectorOpen' &&
+      property === 'isMonthSelectorOpen' &&
+      !disableHeaderClick
+    ) {
+      setMainState({ ...mainState, [property]: !mainState[property] });
+    } else {
+      setMainState({ ...mainState, [property]: !mainState[property] });
+    }
   };
 
   const toggleMonthSelector = createStateToggler('isMonthSelectorOpen');
@@ -129,8 +137,8 @@ const Calendar = ({
         minimumDate={minimumDate}
         activeDate={activeDate}
         onMonthChange={handleMonthChange}
-        onMonthSelect={!disableHeaderClick && toggleMonthSelector}
-        onYearSelect={!disableHeaderClick && toggleYearSelector}
+        onMonthSelect={toggleMonthSelector}
+        onYearSelect={toggleYearSelector}
         monthChangeDirection={mainState.monthChangeDirection}
         isMonthSelectorOpen={mainState.isMonthSelectorOpen}
         isYearSelectorOpen={mainState.isYearSelectorOpen}

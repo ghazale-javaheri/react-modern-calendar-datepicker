@@ -168,7 +168,6 @@ const Header = ({
         ref={monthYearWrapperElement}
         data-testid="month-year-container"
       >
-        &nbsp;
         {monthYearButtons}
       </div>
       <button

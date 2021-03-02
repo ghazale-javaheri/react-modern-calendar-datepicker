@@ -58,14 +58,7 @@ const Calendar = ({
   const today = getToday();
 
   const createStateToggler = property => () => {
-    if (
-      (property === 'isYearSelectorOpen' || property === 'isMonthSelectorOpen') &&
-      !disableHeaderClick
-    ) {
-      setMainState({ ...mainState, [property]: !mainState[property] });
-    } else {
-      setMainState({ ...mainState, [property]: !mainState[property] });
-    }
+    setMainState({ ...mainState, [property]: !disableHeaderClick && !mainState[property] });
   };
 
   const toggleMonthSelector = createStateToggler('isMonthSelectorOpen');

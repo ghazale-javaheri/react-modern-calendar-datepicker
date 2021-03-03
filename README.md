@@ -16,7 +16,10 @@ yarn add react-modern-calendar-datepicker
 ```
 
 ## Documentation 📄
-You can find documentation on [the website.](https://kiarash-z.github.io/react-modern-calendar-datepicker/)
+this project is a fork of [react-modern-calendar-datepicker](https://kiarash-z.github.io/react-modern-calendar-datepicker/)
+edit bug [204](https://github.com/Kiarash-Z/react-modern-calendar-datepicker/issues/204)
+and also let you disable header click ,that is disabled by default, and you could add **disableHeaderClick** to enable it.
+You can find more documentation on [the website.](https://kiarash-z.github.io/react-modern-calendar-datepicker/)
 
 The documentation is divided into several sections:
 - [Getting Started](https://kiarash-z.github.io/react-modern-calendar-datepicker/docs/getting-started)
@@ -32,26 +35,22 @@ The documentation is divided into several sections:
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/Kiarash-Z"><img src="https://avatars0.githubusercontent.com/u/20098648?v=4" width="100px;" alt=""/><br /><sub><b>Kiarash Zarinmehr</b></sub></a><br /><a href="https://github.com/Kiarash Zarinmehr/react-modern-calendar-datepicker/commits?author=Kiarash-Z" title="Code">💻</a> <a href="https://github.com/Kiarash Zarinmehr/react-modern-calendar-datepicker/commits?author=Kiarash-Z" title="Documentation">📖</a> <a href="https://github.com/Kiarash Zarinmehr/react-modern-calendar-datepicker/commits?author=Kiarash-Z" title="Tests">⚠️</a> <a href="https://github.com/Kiarash Zarinmehr/react-modern-calendar-datepicker/issues?q=author%3AKiarash-Z" title="Bug reports">🐛</a> <a href="#ideas-Kiarash-Z" title="Ideas, Planning, & Feedback">🤔</a> <a href="#a11y-Kiarash-Z" title="Accessibility">️️️️♿️</a> <a href="#infra-Kiarash-Z" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/Kiarash Zarinmehr/react-modern-calendar-datepicker/pulls?q=is%3Apr+reviewed-by%3AKiarash-Z" title="Reviewed Pull Requests">👀</a> <a href="#question-Kiarash-Z" title="Answering Questions">💬</a> <a href="#tutorial-Kiarash-Z" title="Tutorials">✅</a></td>
-    <td align="center"><a href="http://Dribbble.com/Armanrokni"><img src="https://avatars3.githubusercontent.com/u/43547854?v=4" width="100px;" alt=""/><br /><sub><b>Arman Rokni</b></sub></a><br /><a href="#design-armanrokni" title="Design">🎨</a></td>
-    <td align="center"><a href="http://twitter.com/thebrodmann"><img src="https://avatars3.githubusercontent.com/u/20781126?v=4" width="100px;" alt=""/><br /><sub><b>Mohammad Hasani</b></sub></a><br /><a href="https://github.com/Kiarash Zarinmehr/react-modern-calendar-datepicker/commits?author=thebrodmann" title="Code">💻</a> <a href="https://github.com/Kiarash Zarinmehr/react-modern-calendar-datepicker/issues?q=author%3Athebrodmann" title="Bug reports">🐛</a> <a href="https://github.com/Kiarash Zarinmehr/react-modern-calendar-datepicker/commits?author=thebrodmann" title="Documentation">📖</a> <a href="#tutorial-thebrodmann" title="Tutorials">✅</a> <a href="#ideas-thebrodmann" title="Ideas, Planning, & Feedback">🤔</a> <a href="#question-thebrodmann" title="Answering Questions">💬</a> <a href="https://github.com/Kiarash Zarinmehr/react-modern-calendar-datepicker/pulls?q=is%3Apr+reviewed-by%3Athebrodmann" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="https://github.com/AmirTahani"><img src="https://avatars3.githubusercontent.com/u/21058227?v=4" width="100px;" alt=""/><br /><sub><b>Amir Tahani</b></sub></a><br /><a href="https://github.com/Kiarash Zarinmehr/react-modern-calendar-datepicker/commits?author=AmirTahani" title="Code">💻</a> <a href="#a11y-AmirTahani" title="Accessibility">️️️️♿️</a></td>
-    <td align="center"><a href="http://mzed.ir"><img src="https://avatars3.githubusercontent.com/u/53334880?v=4" width="100px;" alt=""/><br /><sub><b>Mohammadreza Ziadzadeh</b></sub></a><br /><a href="https://github.com/Kiarash Zarinmehr/react-modern-calendar-datepicker/commits?author=themzed" title="Code">💻</a> <a href="#ideas-themzed" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="http://mzed.ir"><img src="https://avatars.githubusercontent.com/u/34837796?v=4" width="100px;" alt=""/><br /><sub><b>ghazale javaheri</b></sub></a><br /><a href="https://github.com/ghazale-javaheri/react-modern-calendar-datepicker" title="Code">💻</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-and at the end ghazaleh javaheri,little contributor and bahar hashemi and this package edit bug [204](https://github.com/Kiarash-Z/react-modern-calendar-datepicker/issues/204)
-and also let you disable header click ,that is disabled by default and you could add disableHeaderClick to enable it
+and [Bahar Hashemi](mailto:bahar.hashemisharif@gmail.com )
+
+
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ## LICENSE
